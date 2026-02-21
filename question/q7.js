@@ -5,7 +5,7 @@ db.employees.updateOne(
   { $set: { salary: 3500 } },
 );
 
-db.employees.updateOne(
+   db.employees.updateOne(
   { email: "cathy@gmail.com" },
   { $inc: { salary: 3500 } },
 );
