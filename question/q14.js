@@ -1,4 +1,4 @@
-db.employees.find(
+    db.employees.find(
     {},
     {name:1,dept:"$department"} //rename department to dept
 )
