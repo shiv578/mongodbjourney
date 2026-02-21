@@ -8,7 +8,7 @@ db.employees.aggregate([
     {$unwind:"$orders"},
     {$project:{
         _id:0,
-        name:1,
+            name:1,
         email:1,
         department:1,
         product:"$orders.product",
